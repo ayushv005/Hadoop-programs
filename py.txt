@@ -1,0 +1,13 @@
+py<-function()
+{
+
+  for(i in seq(5,1,-1))
+  {
+    for(j in seq(i,1,-1))
+    {
+      cat("*"); ## print cannot be used it treat as vector in r but cat use like c statement
+    }
+    cat("\n");   
+  }
+}
+

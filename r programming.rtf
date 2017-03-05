@@ -1,0 +1,45 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh13420\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 I
+\fs36 x<-c( , , , )\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 x<-(5 +9i)\
+x <- c(5+5i,a)\
+b = 'v'\
+x <- c(b, TRUE)\
+\
+as.numeric(x)\
+as.character(x)\
+as.integer(x)\
+\
+attributes(x)\
+\
+x<-vector("character" length = 5)\
+x<- list(T,5,"a",TRUE,4.5)\
+m<- matrix(nrow = 5, ncol = 5)\
+m[1][1] = 4\
+m<- matrix(list(10,20,"ayush"), nrow = 5, ncol = 5)  \'85?\
+\
+Y<- 2:8\
+rbind(y,Y)					//rbind\
+cbind(y+Y,y+1,Y,y+Y)		//cbind\
+z = 1/0						//inf\
+z = 1/0 - 1/0				//NaN\
+z = 1/0 + 1/0				//inf\
+\
+is.na(x)		//returns TRUE if given parameter is not available\
+is.nan(z)		//returns TRUE if given parameter is not a number\
+\
+x<-factor(c("yes","no","TRUE","yes","FALSE",1)) \
+	//yes   no    TRUE  yes   FALSE 1    \
+\
+l <-list(1,TRUE,5,6,"yes")		\
+l[1]\
+\
+x<-data.frame(roll_no=1:5,name=c(T,"yo",T,F,F))\
+x<data.frame(roll_no=1:5,name=c(T,"yo",T,F,F),score=c("Man","Force","Moods","Kama","Sutra"))\
+}

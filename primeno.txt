@@ -1,0 +1,25 @@
+print("Enter a positive integer: like primeno(n)")
+primeno<-function(n)
+{
+  flag = 1;
+  for(i in 2:(n/2))  # for optimizing code
+  {
+    ## condition for nonprime number
+    if(n%%i==0)
+    {
+      flag=0;
+      break;
+    }
+  }
+  
+  if (flag==1)
+  {
+    sprintf("%d is a prime number.",n);
+  }
+  else
+  {
+    sprintf("%d is not a prime number.",n);
+  }
+}
+
+
